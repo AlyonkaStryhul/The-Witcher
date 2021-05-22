@@ -1,0 +1,40 @@
+
+body{
+	background: url('../images/witcher.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background: #3a413f;
+	color:#c2c7c1;
+	width:450px;
+	padding:10px;
+}
+a{
+	text-decoration: none;
+	color: #a4dd9e;
+}
+
+.resize{
+	width:45px;
+	height:auto;
+}
+
+h3{
+	background:grey;
+	border-radius: 5px;
+	color:black;
+}
+
+h1,h3,h4,h5,p{
+	font-family: 'Texturina', serif;
+}
+
+body {
+  margin: 0;
+}
